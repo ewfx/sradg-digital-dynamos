@@ -4,9 +4,9 @@
     <ng-container *ngFor="let column of displayedColumns" [matColumnDef]="column">
       <th mat-header-cell *matHeaderCellDef>{{ column }}</th>
       <td mat-cell *matCellDef="let element"  >
-        <div *ngIf="column != 'action'">{{ element[column] }}
+        <div *ngIf="column != 'Action'">{{ element[column] }}
         </div>
-        <div *ngIf="column == 'action'">
+        <div *ngIf="column == 'Action'">
         <i class="fas fa-exclamation-circle" (click)="onFalsePositive(element)" title="False Positive" style="cursor: pointer; color: #2196f3;"></i><br>
         <i class="fas fa-tools" (click)="onServiceNow(element)" title="Service Now" style="cursor: pointer; color: #fdc009;"></i><br>
         <i class="fab fa-jira" (click)="onJira(element)" title="JIRA" style="cursor: pointer; color: #2482fd;"></i><br>
