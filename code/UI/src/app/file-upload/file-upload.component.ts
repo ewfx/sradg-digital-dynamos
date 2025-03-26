@@ -209,6 +209,16 @@ export class FileUploadComponent {
     }
   }
 
+  onReset(): void {
+    this.file1 = null;
+    this.file2 = null;
+    this.displayData = [];
+    const file1Input = document.getElementById('file1') as HTMLInputElement;
+    const file2Input = document.getElementById('file2') as HTMLInputElement;
+    if (file1Input) file1Input.value = '';
+    if (file2Input) file2Input.value = '';
+  }
+  
   openDialog(title:string, message: string): void {
     const dialogRef = this.dialog.open(AlertDialogComponent);
     dialogRef.componentInstance.showMessage(title, message);
