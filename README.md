@@ -37,7 +37,30 @@ By integrating Gen AI with modern reconciliation frameworks, businesses can achi
 
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+The project was inspired by real-world challenges in financial auditing and reconciliation, where:
+-	Manual processes  are time-consuming, error-prone .
+-  Anomalies are Hard to Explain
+-  Dealing with same pattern of error again and again
+  
+The Problem We Solved:
+"How can we automatically detect financial anomalies and explain users in plain language—without relying on rigid solutions?"
+1.	For Auditors
+-	Replace manual checks with AI-powered anomaly detection.
+-	Provide clear, actionable explanations (e.g., "Likely cause: Missing transaction on May 31").
+
+2.	For IT Teams
+-	Offer a scalable, self-improving system (retrains with feedback).
+-	Support both cloud (GPT-4) and free local LLMs (TinyLlama).
+  
+3.	For Compliance
+-	Maintain audit trails (CSV reports + API logs).
+-	Reduce false positives with adaptive thresholds.
+________________________________________
+Real-World Impact
+•	Faster Audits: Cut review time from hours to minutes.
+•	Better Decisions: Explanations help teams prioritize high-risk issues.
+•	Cost Savings: Local LLM fallback avoids GPT-4 API costs for simple cases.
+
 
 ## ⚙️ What It Does
 The Solution that we built would automate the whole process and help reconcilers in detecting anomalies, helping them with AI generated explanation, consider the feedback from user, absorb the feedback and integrate with various tools to fix and track the anamolies.
