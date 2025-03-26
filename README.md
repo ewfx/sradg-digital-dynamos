@@ -31,12 +31,10 @@ This project focuses on:
 By integrating Gen AI with modern reconciliation frameworks, businesses can achieve higher efficiency, accuracy, and operational resilience, paving the way for a smarter and more robust financial and data management ecosystem.
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable) 
-[UI Video Demo](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/Demo_UI_Recording.mp4) : 
-🖼️ Screenshots:
 
-![Screenshot 1](link-to-image)
+#### [UI Video Demo](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/Demo_UI_Recording.mp4)
+#### [Service Video Demo](#) (https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/Demo_Service_Recording.mp4)  
+
 
 ## 💡 Inspiration
 What inspired you to create this project? Describe the problem you're solving.
