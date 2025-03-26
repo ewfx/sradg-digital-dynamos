@@ -2,14 +2,13 @@ import { Component } from '@angular/core';
 import { LoadingSpinnerComponent } from '../loading-spinner/loading-spinner.component';
 import { CommonModule } from '@angular/common';
 import { DataDisplayComponent } from '../data-display/data-display.component';
-import { Router } from 'express';
 import { RouterOutlet } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { AlertDialogComponent } from '../alert-dialog/alert-dialog.component';
 
 @Component({
   selector: 'app-file-upload',
-  imports: [LoadingSpinnerComponent,CommonModule,DataDisplayComponent,RouterOutlet,AlertDialogComponent],
+  imports: [LoadingSpinnerComponent,CommonModule,DataDisplayComponent,RouterOutlet],
   templateUrl: './file-upload.component.html',
   styleUrl: './file-upload.component.scss'
 })
@@ -26,7 +25,7 @@ export class FileUploadComponent {
     if (input.files && input.files.length > 0) {
       const file = input.files[0];
       if (file.type !== 'text/csv') {
-        this.openDialog('Please select a CSV file.');
+        this.openDialog('Alert','Please select a CSV file.');
         input.value = ''; 
         return;
       }
@@ -202,13 +201,13 @@ export class FileUploadComponent {
 
       this.isLoading = false;
     } else {
-      this.openDialog('Please select both files before starting reconciliation.');
+      this.openDialog('Alert','Please select both files before starting reconciliation.');
     }
   }
 
-  openDialog(message: string): void {
+  openDialog(title:string, message: string): void {
     const dialogRef = this.dialog.open(AlertDialogComponent);
-    dialogRef.componentInstance.message = message;
+    dialogRef.componentInstance.showMessage(title, message);
   }
 
 }
