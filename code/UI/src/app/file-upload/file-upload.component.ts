@@ -5,10 +5,14 @@ import { DataDisplayComponent } from '../data-display/data-display.component';
 import { RouterOutlet } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { AlertDialogComponent } from '../alert-dialog/alert-dialog.component';
+import { MatButtonModule } from '@angular/material/button';
+
+
+
 
 @Component({
   selector: 'app-file-upload',
-  imports: [LoadingSpinnerComponent,CommonModule,DataDisplayComponent,RouterOutlet],
+  imports: [LoadingSpinnerComponent,CommonModule,DataDisplayComponent,RouterOutlet,MatButtonModule],
   templateUrl: './file-upload.component.html',
   styleUrl: './file-upload.component.scss'
 })

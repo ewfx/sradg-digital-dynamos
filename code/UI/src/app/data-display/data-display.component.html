@@ -1,5 +1,5 @@
 <div *ngIf="displayData.length > 0">
-  <h2>Data Display</h2>
+  <h2 class="acc-summary">Account Summary</h2>
   <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
     <ng-container *ngFor="let column of displayedColumns" [matColumnDef]="column">
       <th mat-header-cell *matHeaderCellDef>{{ column }}</th>
