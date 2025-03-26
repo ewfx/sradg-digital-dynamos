@@ -129,7 +129,7 @@ Below are some of the challenges we faced while developing the solution to the p
 
 ## 🏃 How to Run
 
-source codes are inside Code folder [Codes](https://github.com/ewfx/sradg-digital-dynamos/tree/main/code)
+[Source Codes](https://github.com/ewfx/sradg-digital-dynamos/tree/main/code)
 
 1. Clone the repository  
    ```sh
