@@ -64,7 +64,7 @@ Deployment
 ## 🛠️ How We Built It
 
 1. Problem Identification
-Identified the need for automated anomaly detection with human-readable explanations for auditors.
+- Identified the need for automated anomaly detection with human-readable explanations for auditors.
 2. Tech Stack Selection
 -	Core: Python (pandas, scikit-learn) for data processing and ML.
 -	AI: OpenAI GPT-4 for explanations + statistical feedback.
