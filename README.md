@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 Smarter Reconciliation and Anomaly Detection using Gen AI
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -50,13 +50,14 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+![image](https://github.com/user-attachments/assets/cf9c278e-115d-4c0e-a3ff-116bb19cb376)
+
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Your Name** - Radhika Sreeramoju
+- **Teammate 2** - Bimesh singh
+- **Teammate 3** - Raosaheb Metkari
+- **Teammate 4** - Naveen Kumar
+- **Teammate 5** - Avinash Bakurdi Ramegowda
 
 test change
