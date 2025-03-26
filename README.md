@@ -44,7 +44,24 @@ What inspired you to create this project? Describe the problem you're solving.
 Explain the key features and functionalities of your project.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+The Solution that we built would automate the whole process and help reconcilers in detecting anomalies, helping them with AI generated explanation, consider the feedback from user, absorb the feedback and integrate with various tools to fix and track the anamolies.
+
+1. Anomaly Detection
+•	Algorithm: IsolationForest from scikit-learn (unsupervised ML).
+•	Input: Historical and new transactional data (CSV files).
+•	Output: Flagged anomalies with explanation
+
+2. Explanation Generation
+•	Primary: GPT-4 API for high-quality
+•	Fallback: statistical summaries if GPT-4 fails.
+
+3. Continuous Learning
+•	User Interface : to act upon the identified anomaly
+•	Feedback Loop: Users confirm/correct anomalies to retrain the model.
+
+4. Deployment
+•	REST API: Flask endpoint (/api/anomalies) to serve results.
+•	Outputs: CSV reports 
 
 ## 🚧 Challenges We Faced
 Below are some of the challenges we faced while developing the solution to the probelm
