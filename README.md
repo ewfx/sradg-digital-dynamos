@@ -32,10 +32,21 @@ By integrating Gen AI with modern reconciliation frameworks, businesses can achi
 
 ## 🎥 Demo
 
-### [UI Video Demo](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/Demo_UI_Recording.mp4)
-### [Service Video Demo](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/Demo_Service_Recording.mp4)  
+#### [UI Video Demo](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/Demo_UI_Recording.mp4)
+#### [Service Video Demo](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/Demo_Service_Recording.mp4)  
 
-🖼️ [Screenshots] (https://github.com/ewfx/sradg-digital-dynamos/tree/main/artifacts/demo/screenshots) 
+###🖼️ Screenshots
+
+ [Screenshot1](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/screenshots/Screenshot1.png)
+ [Screenshot2](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/screenshots/Screenshot2.png)
+ [Screenshot3](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/screenshots/Screenshot3.png)
+ [Screenshot4](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/screenshots/Screenshot4.png)
+ [Screenshot5](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/screenshots/Screenshot5.png)
+ [Screenshot6](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/screenshots/Screenshot6.png)
+ [Screenshot7](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/screenshots/Screenshot7.png)
+ [Screenshot8](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/screenshots/Screenshot8.png)
+ [Screenshot9](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/screenshots/Screenshot9.png)
+
 
 
 ## 💡 Inspiration
