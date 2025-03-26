@@ -14,7 +14,21 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+In today's data-driven landscape, businesses rely heavily on accurate and efficient reconciliation processes to ensure consistency across financial transactions, operational data, and system logs. Traditional reconciliation methods often involve manual intervention, rule-based approaches, and time-consuming audits, making them prone to errors, inefficiencies, and undetected anomalies.
+
+The emergence of Generative AI (Gen AI) offers a transformative approach to reconciliation and anomaly detection. By leveraging machine learning, natural language processing, and advanced data analytics, this project aims to develop an intelligent system that can automate reconciliation, detect discrepancies, and identify patterns that traditional methods might miss.
+
+This project focuses on:
+
+Automating reconciliation processes using AI-driven insights.
+
+Enhancing anomaly detection by analyzing vast datasets for hidden patterns.
+
+Reducing manual effort and errors by leveraging self-learning models.
+
+Improving decision-making with real-time alerts and predictive analytics.
+
+By integrating Gen AI with modern reconciliation frameworks, businesses can achieve higher efficiency, accuracy, and operational resilience, paving the way for a smarter and more robust financial and data management ecosystem.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
