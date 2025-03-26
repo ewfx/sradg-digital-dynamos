@@ -23,7 +23,7 @@ export class DataDisplayComponent implements OnInit{
   ngOnInit(): void {
     if (this.displayData.length > 0) {
       this.displayedColumns = Object.keys(this.displayData[0]);
-      this.displayedColumns.push('actions');
+      // this.displayedColumns.push('actions');
       this.dataSource = new MatTableDataSource(this.displayData);
       this.dataSource.paginator = this.paginator;
     }
