@@ -20,13 +20,13 @@ The emergence of Generative AI (Gen AI) offers a transformative approach to reco
 
 This project focuses on:
 
-Automating reconciliation processes using AI-driven insights.
+- Automating reconciliation processes using AI-driven insights.
 
-Enhancing anomaly detection by analyzing vast datasets for hidden patterns.
+- Enhancing anomaly detection by analyzing vast datasets for hidden patterns.
 
-Reducing manual effort and errors by leveraging self-learning models.
+- Reducing manual effort and errors by leveraging self-learning models.
 
-Improving decision-making with real-time alerts and predictive analytics.
+- Improving decision-making with real-time alerts and predictive analytics.
 
 By integrating Gen AI with modern reconciliation frameworks, businesses can achieve higher efficiency, accuracy, and operational resilience, paving the way for a smarter and more robust financial and data management ecosystem.
 
