@@ -111,8 +111,8 @@ Below are some of the challenges we faced while developing the solution to the p
 ![image](https://github.com/user-attachments/assets/cf9c278e-115d-4c0e-a3ff-116bb19cb376)
 
 
-## 👥 Team
-- **Your Name** - Radhika Sreeramoju
+## 👥 Team (Digital_Dynamos)
+- **Teammate 1** - Radhika Sreeramoju
 - **Teammate 2** - Bimesh singh
 - **Teammate 3** - Raosaheb Metkari
 - **Teammate 4** - Naveen Kumar
