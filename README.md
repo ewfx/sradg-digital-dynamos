@@ -63,6 +63,24 @@ Deployment
 
 ## 🛠️ How We Built It
 
+1. Problem Identification
+Identified the need for automated anomaly detection with human-readable explanations for auditors.
+2. Tech Stack Selection
+•	Core: Python (pandas, scikit-learn) for data processing and ML.
+•	AI: OpenAI GPT-4 for explanations + TinyLlama (local fallback).
+•	API: Flask to serve results.
+3. Key Steps
+•	Data Prep: Cleaned/processed CSV data (handled dates, missing values).
+•	Anomaly Detection: Trained IsolationForest on historical balances.
+•	Explanation Engine:
+o	GPT-4: Generated natural language insights via API.
+o	Statistical Fallback: when unable to connect to GPT
+•	Feedback Loop: Allowed users to flag false positives/negatives to retrain the model.
+•	Deployment: Exposed via Flask API (/api/anomalies) and CSV reports.
+
+Outcome: A scalable, self-improving system that detects financial anomalies and explains them in plain language—no manual reviews needed.
+In 1 Line: "Trained IsolationForest on historical data, explained anomalies via GPT-4/Statistical, and deployed as a self-learning Flask API." 🚀
+
 
 ## 🚧 Challenges We Faced
 Below are some of the challenges we faced while developing the solution to the probelm
