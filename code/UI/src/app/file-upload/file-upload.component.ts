@@ -39,7 +39,8 @@ export class FileUploadComponent {
       this.isLoading = true;
     
       console.log('Reconciliation started with files:', this.file1.name, this.file2.name);
-      this.displayData= [{"name": "John Doe", "age": 30,"address":"Hyderabad"}, {"name": "Jane Doe", "age": 25,"address":"Bangalore"}];
+      this.displayData= [{"name": "John Doe", "age": 30,"address":"Hyderabad","action":""}, 
+      {"name": "Jane Doe", "age": 25,"address":"Bangalore","action":""}];
 
       this.isLoading = false;
     } else {
