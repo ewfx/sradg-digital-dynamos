@@ -48,12 +48,12 @@ Briefly outline the technologies, frameworks, and tools used in development.
 
 ## 🚧 Challenges We Faced
 Below are some of the challenges we faced while developing the solution to the probelm
-•	Version conflicts between scikit-learn, pandas, and torch (especially for GPU support).
-•	OpenAI API changes (e.g., migration from openai==0.28 to >=1.0.0 breaking existing code).
-•	Local LLM setup complexity (TinyLlama requires specific transformers/torch versions).
-•	GPT-4 API costs and rate limits
-•	Obtaining API Key for GPT-4
-•	Overly technical explanations from statistical fallback.
+- Version conflicts between scikit-learn, pandas, and torch (especially for GPU support).
+- OpenAI API changes (e.g., migration from openai==0.28 to >=1.0.0 breaking existing code).
+- Local LLM setup complexity (TinyLlama requires specific transformers/torch versions).
+- GPT-4 API costs and rate limits
+- Obtaining API Key for GPT-4
+- Overly technical explanations from statistical fallback.
 
 
 
