@@ -43,20 +43,20 @@ What inspired you to create this project? Describe the problem you're solving.
 ## ⚙️ What It Does
 The Solution that we built would automate the whole process and help reconcilers in detecting anomalies, helping them with AI generated explanation, consider the feedback from user, absorb the feedback and integrate with various tools to fix and track the anamolies.
 
-## Anomaly Detection
+Anomaly Detection
 - Algorithm: IsolationForest from scikit-learn (unsupervised ML).
 - Input: Historical and new transactional data (CSV files).
 - Output: Flagged anomalies with explanation
 
-## Explanation Generation
+Explanation Generation
 - Primary: GPT-4 API for high-quality
 - Fallback: statistical summaries if GPT-4 fails.
 
-## Continuous Learning
+Continuous Learning
 - User Interface : to act upon the identified anomaly
 - Feedback Loop: Users confirm/correct anomalies to retrain the model.
 
-## Deployment
+Deployment
 - REST API: Flask endpoint (/api/anomalies) to serve results.
 - Outputs: CSV reports 
 
