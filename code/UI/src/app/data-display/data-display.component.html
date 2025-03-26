@@ -7,11 +7,11 @@
         <div *ngIf="column != 'action'">{{ element[column] }}
         </div>
         <div *ngIf="column == 'action'">
-        <i class="fas fa-exclamation-circle" (click)="onFalsePositive(element)" title="False Positive"></i>
-        <i class="fas fa-tools" (click)="onServiceNow(element)" title="Service Now" style="padding-left: 10px;"></i>
-        <i class="fab fa-jira" (click)="onJira(element)" title="JIRA" style="padding-left: 10px;"></i>
-        <i class="fas fa-envelope" (click)="onEmail(element)" title="Email" style="padding-left: 10px;"></i>
-        <i class="fas fa-comments" (click)="onUserComments(element)" title="User Comments" style="padding-left: 10px;"></i>
+        <i class="fas fa-exclamation-circle" (click)="onFalsePositive(element)" title="False Positive" style="cursor: pointer; color: #2196f3;"></i><br>
+        <i class="fas fa-tools" (click)="onServiceNow(element)" title="Service Now" style="cursor: pointer; color: #fdc009;"></i><br>
+        <i class="fab fa-jira" (click)="onJira(element)" title="JIRA" style="cursor: pointer; color: #2482fd;"></i><br>
+        <i class="fas fa-envelope" (click)="onEmail(element)" title="Email" style="cursor: pointer;color: #673ab7;"></i><br>
+        <i class="fas fa-comments" (click)="onUserComments(element)" title="User Comments" style="cursor: pointer; color: #8bc34a;"></i>
         </div>
         </td>
     </ng-container>
