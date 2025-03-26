@@ -93,7 +93,12 @@ Continuous Learning
 
 Deployment
 - REST API: Flask endpoint (/api/anomalies) to serve results.
-- Outputs: CSV reports 
+- Outputs: CSV reports
+
+Solution workflow:
+------------------
+![image](https://github.com/user-attachments/assets/75b928d1-97ce-4c98-8943-76b0e99302c1)
+
 
 ## 🛠️ How We Built It
 
