@@ -32,8 +32,8 @@ By integrating Gen AI with modern reconciliation frameworks, businesses can achi
 
 ## 🎥 Demo
 
-#### [UI Video Demo](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/Demo_UI_Recording.mp4)
-#### [Service Video Demo](#) (https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/Demo_Service_Recording.mp4)  
+### [UI Video Demo](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/Demo_UI_Recording.mp4)
+### [Service Video Demo](https://github.com/ewfx/sradg-digital-dynamos/blob/main/artifacts/demo/Demo_Service_Recording.mp4)  
 
 
 ## 💡 Inspiration
